@@ -15,7 +15,7 @@
    </div> -->
 <div *ngIf="nameRef.errors && (nameRef.dirty||nameRef.touched)" class="alert alert-danger">
        <div [hidden]="!nameRef.errors.required">
-         Please enter a name
+         Please enter your name
        </div> 
        <div [hidden]="!nameRef.errors.minlength">
             Please enter atleast 4 characters

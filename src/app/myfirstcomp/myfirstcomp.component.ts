@@ -9,7 +9,7 @@ export class MyfirstcompComponent implements OnInit {
        myName="Brandon";
        onSubmit(value:any)
        {
-         console.log(value);
+    ;
        }
 
 
