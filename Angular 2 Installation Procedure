@@ -1,0 +1,42 @@
+Installataion Procedure:
+
+1. Go to,   https://nodejs.org/  and download recommended package then install Node JS
+
+2. Go to, https://code.visualstudio.com/ and download windows package then install
+
+3. Go to cmd in visualstudio using ( Ctrl+~) 
+
+4. Check Node version in cmd using ( node -v)
+
+5. Check NPM version in cmd using ( npm -v)
+
+6. If it is not available, use  ( npm install npm)
+
+7.  Now, check NPM version  use ( npm -v )
+
+8. Create any folde in any directory:
+    
+	    For Ex. I am creating new folder ( Guhan ) in my Local disk D drive.
+		
+9. Open visualstudio code cmd and select that particular folder ( Ex: C:\\Porgram files --> it is in C drive, 
+
+     so we have to move into D drive)
+ 
+     So that use, cd.. Program files -->(Enter). then use, D: --> (Enter) 
+ 
+     Now you are in D drive.
+	 
+     Next you have to move into the folder ( Guhan).
+
+     Use, cd Guhan
+
+ 
+10. Next, Install the library files globally ->   npm install -g @angular/cli
+
+11. Create New project: ng new poroject_name 
+
+12. Then select the project: cd poroject_name
+
+13. Now start your npm: npm start
+
+14. To confirm: Open your browser use this link: http://localhost:4200/
